@@ -4,12 +4,12 @@
 \name{samfunctions-package}
 \alias{samfunctions}
 \alias{samfunctions-package}
-\title{samfunctions: What the Package Does (One Line, Title Case)}
+\title{samfunctions: Personal functions for projects}
 \description{
-What the package does (one paragraph).
+Personal Functions
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
+\strong{Maintainer}: Samuel Soon \email{first.last@example.com} (\href{https://orcid.org/YOUR-ORCID-ID}{ORCID})
 
 }
 \keyword{internal}

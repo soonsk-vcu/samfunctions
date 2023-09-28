@@ -13,7 +13,6 @@
 #' @import tidyr
 #' @import lubridate
 #' @import gridExtra
-#' @import data.table
 #' @export
 NULL
 importpacks <- function(){}
