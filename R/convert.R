@@ -21,7 +21,7 @@
 
 convert <- function(lst, from, to, interval=FALSE){
   isString <- FALSE
-  # if converting letters within single string, do a split
+  # if converting letters within single string, do a split to individual chars
   if(typeof(lst) == "character" & length(lst) == 1){
     vec <- (strsplit(lst,""))[[1]]
     isString <- TRUE
@@ -29,6 +29,7 @@ convert <- function(lst, from, to, interval=FALSE){
     vec <- lst
   }
 
+  # auxilary function to convert object to corresponding dictionary entry
   aux <- function(x, from, to){
     ind <- ifelse(interval, which(from >= x)[1], which(from == x))
     ifelse(length(ind) > 0  & !is.na(ind),to[ind],
