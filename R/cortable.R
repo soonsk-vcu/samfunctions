@@ -33,7 +33,7 @@ cortable <- function(df, ind_index, alternative=NULL, method="pearson"){
     strdata <- unlist(l[!sapply(l, is.numeric)])
     # paste formatted entries with dependent variable name for clarity
     cortests <- c(numdata , strdata[-length(strdata)], "Dependent Variable" = colnames(df)[yind])
-
+    cortests["method"] <- method
     cortests
 
   }
