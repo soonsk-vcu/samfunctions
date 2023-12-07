@@ -3,6 +3,7 @@
 export()
 export(convert)
 export(cortable)
+export(cortesttable)
 export(datatab)
 export(getCountData)
 export(pythagoras)
