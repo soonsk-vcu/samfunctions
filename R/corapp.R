@@ -19,5 +19,5 @@ cortesttable <- function(df, alternative = NULL, method = "Spearman") {
     }
     ret
   }
-  sapply(numdat,corapp, y=numdat)
+  sapply(df,corapp, y=df)
 }
