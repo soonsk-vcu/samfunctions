@@ -19,5 +19,7 @@ cortesttable <- function(df, alternative = NULL, method = "Spearman") {
     }
     ret
   }
-  sapply(df,corapp, y=df)
+  ret <- sapply(df,corapp, y=df)
+  rownames(ret) <- colnames(ret)
+  ret
 }
